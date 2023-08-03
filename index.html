@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOO - Website Developer</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home">
+        <img src="logo.svg" alt="logo" class="header-icon" />
+      </a>
+      <button class="menu-btn">
+        <span class="bar1"></span><span class="bar2"></span
+        ><span class="bar3"></span>
+      </button>
+      <nav class="header-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="hero-desc">哈囉</span>
+            <h1 class="hero-title">我是Griffin</h1>
+            <h2 class="hero-subtitle">Junior Website Developer</h2>
+            <a href="#about" class="btn-primary">關於我</a>
+          </div>
+          <div class="hero-pic">
+            <img src="me.webp" alt="Author-Griffin" />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container about-container">
+          <div class="about-author">
+            <img src="me.webp" alt="Author-Mark" />
+          </div>
+          <h3 class="section-heading">關於我</h3>
+          <div class="about-section">
+            <p>
+              嗨，我是OOO，一位充滿熱情和抱負的初級軟體工程師。擁有扎實的資工基礎和敏銳的觀察力，我樂於寫出乾淨高效的程式碼、渴望為有意義的專案做出貢獻，我也重視團隊合作，並不斷尋求成長和學習的機會。對科技所帶來的可能性感到興奮，我致力於在軟體開發這個充滿活力的領域中創造積極的影響。（這段文字由ChatGPT生成）
+            </p>
+            <div class="about-skill">
+              <span>我擅長的： </span>
+              <ul class="about-skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Vue</li>
+                <li>Angular</li>
+                <li>React</li>
+                <li>RWD</li>
+                <li>Ruby</li>
+                <li>Ruby on rails</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>And so on...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="container">
+          <h4 class="section-heading">作品集</h4>
+          <!-- Project 1 -->
+          <article class="project">
+            <div class="project-image">
+              <a href="#">
+                <img src="optical.webp" alt="optical toys" />
+              </a>
+            </div>
+
+            <div class="project-content">
+              <h5 class="project-heading">Optical Toys</h5>
+              <p class="project-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                quo exercitationem dolor, inventore deserunt saepe ut temporibus
+                vitae dolorum at assumenda debitis quis sint? Perspiciatis
+                exercitationem, earum esse minus sapiente doloribus tempora
+                saepe impedit doloremque ex dicta iure consequatur sunt!
+                Reiciendis natus autem laboriosam aspernatur provident quo,
+                voluptatum repellendus alias?
+              </p>
+              <a class="project-view btn-primary" href="#">Demo</a>
+            </div>
+          </article>
+          <!-- End of Project 1 -->
+          <!-- Project 2  -->
+          <article class="project">
+            <div class="project-image">
+              <a href="#">
+                <img src="mdn.webp" alt="Mozilla Developer Network" />
+              </a>
+            </div>
+            <div class="project-content">
+              <h5 class="project-heading">Mozilla Developer Network</h5>
+              <p class="project-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Numquam commodi eius totam ex qui unde voluptatum, quo quae
+                similique illum nobis facilis eligendi voluptate, beatae
+                accusantium, consequuntur cumque ipsum iusto voluptates sunt ad
+                officia praesentium! Deleniti unde nisi eveniet molestias
+                reprehenderit iste maxime amet ut, neque quibusdam magnam
+                laudantium ipsa soluta. Officiis, rerum. Eveniet distinctio
+                magni ullam! Laboriosam eum, voluptate, fugiat nesciunt ipsum
+                sint labore explicabo aperiam voluptatum autem nobis voluptatem
+                ut reprehenderit distinctio incidunt velit ea? Consectetur
+                assumenda officiis unde dolores molestias, omnis quos vero
+                officia adipisci dignissimos, necessitatibus hic, asperiores
+                totam doloremque obcaecati blanditiis incidunt perspiciatis
+                maxime. Expedita.
+              </p>
+              <a class="project-view btn-primary" href="#">Demo</a>
+            </div>
+          </article>
+          <!-- End of Project 2 -->
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h4 class="section-heading">聯絡我</h4>
+          <span class="contact-desc">我已經迫不及待探索新的可能了</span>
+          <a href="mailto:aaa@gmail.com" class="contact-email">寄信給我</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-social">
+          <li>
+            <a href="#"><img src="github.svg" alt="github" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="facebook.svg" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="instagram.svg" alt="instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="twitter.svg" alt="twitter" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <a href="#home" id="top" class="hide"
+      ><img src="up.svg" alt="go to top"
+    /></a>
+  </body>
+  <script defer>
+    const nav = document.querySelector(".header nav")
+    const navBtn = document.querySelector(".header button")
+    const topBtn = document.querySelector("#top")
+    navBtn.addEventListener("click", () => {
+      navBtn.classList.toggle("clicked")
+    })
+
+    nav.addEventListener("click", (e) => {
+      if (e.target.tagName === "A") {
+        navBtn.classList.remove("clicked")
+      }
+    })
+
+    document.addEventListener("scroll", () => {
+      if (window.scrollY > 0) {
+        topBtn.classList.remove("hide")
+      } else {
+        topBtn.classList.add("hide")
+      }
+    })
+  </script>
+</html>
